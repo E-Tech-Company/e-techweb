@@ -98,15 +98,15 @@
                 padding: 12px 26px;
                 font-size: 15px;
                 font-weight: 500;
-                border: 1px solid #FF008C;
-                color: #FF008C;
+                border: 1px solid #172b4d;
+                color: #172b4d;
                 @include border-radius(30px);
                 @include transition(.3s);
                 &:hover{
                     color: #fff;
                     // @extend %gradient;
                     border: 1px solid transparent;
-                    background: #FF008C;
+                    background: #172b4d;
                     color: #fff;
 
                 }
@@ -182,7 +182,7 @@
                             }
                         }
                         &:hover{
-                            color: #FF008C;
+                            color: #172b4d;
                         }
                     }
                     .submenu {

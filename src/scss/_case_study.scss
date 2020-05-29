@@ -73,7 +73,7 @@
                 font-weight: 400;
                 a{
                     &:hover{
-                        color: #FF008C;
+                        color: #172b4d;
                     }
                 }
             }
@@ -90,7 +90,7 @@
                     color: #001D38;
                     a{
                         &:hover{
-                            color: #FF008C;
+                            color: #172b4d;
                         }
                     }
                 }
@@ -136,14 +136,14 @@
         margin-top: 40px;
         .load_more_btn{
             display: inline-block;
-            color: #FF008C;
+            color: #172b4d;
             background: #FFF5FB;
             @include border-radius(30px);
             padding: 13px 35px;
             font-size: 15px;
             font-weight: 500;
             &:hover{
-                background: #FF008C;
+                background: #172b4d;
                 color: #fff;
             }
         }
