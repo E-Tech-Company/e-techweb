@@ -1,3 +1,43 @@
+:root
+{
+    --blue: #5e72e4;
+    --indigo: #5603ad;
+    --purple: #8965e0;
+    --pink: #f3a4b5;
+    --red: #f5365c;
+    --orange: #fb6340;
+    --yellow: #ffd600;
+    --green: #2dce89;
+    --teal: #11cdef;
+    --cyan: #2bffc6;
+    --white: #fff;
+    --gray: #8898aa;
+    --gray-dark: #32325d;
+    --light: #ced4da;
+    --lighter: #e9ecef;
+    --primary: #5e72e4;
+    --secondary: #f7fafc;
+    --success: #2dce89;
+    --info: #11cdef;
+    --warning: #fb6340;
+    --danger: #f5365c;
+    --light: #adb5bd;
+    --dark: #212529;
+    --default: #172b4d;
+    --white: #fff;
+    --neutral: #fff;
+    --darker: black;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: Open Sans, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap");
 
@@ -5,6 +45,7 @@
 .boxed-btn3,
 .boxed-btn3-text:hover,
 .footer .footer_top .footer_widget .newsletter_form button,
+.footer .socail_links button:hover,
 .footer .socail_links ul li a:hover {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#172b4d+0,ff6357+100 */
   background: #172b4d;
@@ -17,6 +58,27 @@
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#172b4d', endColorstr='#32325d', GradientType=1);
   /* IE6-9 */
+}
+
+
+.socail_links button:hover {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#172b4d+0,ff6357+100 */
+  background: #ffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #172b4d 0%, #32325d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #172b4d 0%, #32325d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #172b4d 0%, #32325d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#172b4d', endColorstr='#32325d', GradientType=1);
+  /* IE6-9 */
+}
+
+
+.socail_links .btn {
+  background: #172b4d;
+  border-radius: 50px;
 }
 
 .imgRedonda {
